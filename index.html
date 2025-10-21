@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A simple Notepad web for taking notes.">
+    <title>Notepad</title>
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 <body>
-    <div class="max-h-full">
-        <p>HI THERE HOW ARE YOU AM I SEEN IN GITHUB</p>
-    </div>
+    <textarea  id="notes" cols="30" rows="10" class="border-2 m-1" placeholder="Enter Your Notes...."></textarea><button id="submit" class="m-3 p-2.5 bg-orange-400 border-2 border-transparent rounded-lg ">Add</button> <button id="remove" class="m-3 p-2.5 bg-orange-400 border-2 border-transparent rounded-lg ">Delete</button>
+    <div id="show" class="m-2"></div>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
