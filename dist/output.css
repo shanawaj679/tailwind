@@ -165,6 +165,9 @@
   }
 }
 @layer utilities {
+  .static {
+    position: static;
+  }
   .m-1 {
     margin: calc(var(--spacing) * 1);
   }
@@ -173,6 +176,9 @@
   }
   .m-3 {
     margin: calc(var(--spacing) * 3);
+  }
+  .contents {
+    display: contents;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
